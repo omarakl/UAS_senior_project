@@ -1,0 +1,22 @@
+This project is an Unmanned Aerial System with Smart Surveillance for SAR missons and Disaster response
+It's based on Arduino MCUs
+The communication between the UAV and the remote control is done via NRF24L01 communication module
+
+Note:
+
+The Servo motors are connected as follows: 
+Right Flap: 2
+Left FLap: 3
+Right Rudder: 4
+Left Rudder: 5
+Throttle: 7
+
+NRF24L01 connections: 
+
+CE: 9
+CSN: 10
+MOSI: 11
+MISO: 12
+SCK: 13
+Vcc: 3.3V
+GND: GND
